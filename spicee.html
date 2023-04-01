@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicee | Room44</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  </head>
+  <body>
+
+
+
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <!-- <img src="images/logo.png" alt=""> -->
+          <h1><a href="index.html">Room<span>44</span></a></h1>
+        </div>
+
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="shirts.html">Shirts</a></li>
+            <li><a href="pants.html">Pants</a></li>
+            <li><a href="tees.html">Tees</a></li>
+            <li><a href="shorts.html">Shorts</a></li>
+            <li><a href="bags.html">Bags</a></li>
+
+
+          </ul>
+        </nav>
+        <a href="#"><img id="cart" src="merch/shopping-bag.png" width="30px" height="30px"></a>
+        <img src="merch/menu.png" width="30px" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+
+    <!-- ---------- single product details ----------- -->
+
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="https://whereisnosa.github.io/DV/merch/babygirl.jpg" width="100%">
+        </div>
+        <div class="col-2">
+          <p>Home / Tees</p>
+          <h1>Spicee Tee</h1>
+          <h4>₦16000</h4>
+          <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+          <input type="number" value="1">
+          <a href="#" class="btn">Add To Cart</a>
+
+          <h3>Product Details</h3>
+          <br>
+          <p>For the pretty gangsters.</p>
+        </div>
+      </div>
+    </div>
+
+
+<!-- ------- title -------- -->
+
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p><a href="#">View More</a></p>
+      </div>
+    </div>
+
+
+<!-- ----------products---------- -->
+
+    <div class="small-container">
+
+      <div class="row">
+        <div class="col-4">
+            <a href="bhc.html"><img src="https://whereisnosa.github.io/DV/merch/fit3.jpg"></a>
+          <h4>BHC</h4>
+          <p>₦14000</p>
+        </div>
+        <div class="col-4">
+            <a href="dead.html"><img src="https://whereisnosa.github.io/DV/merch/dead.jpg"></a>
+          <h4>Ded</h4>
+          <p>₦13000</p>
+        </div>
+        <div class="col-4">
+            <a href="bolted.html"><img src="https://whereisnosa.github.io/DV/merch/bolted.jpg"></a>
+          <h4>bolted</h4>
+          <p>₦30000</p>
+        </div>
+        <div class="col-4">
+            <a href="extasy.html"><img src="https://whereisnosa.github.io/DV/merch/extasy.jpg"></a>
+          <h4>extasy</h4>
+          <p>₦14000</p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+<!-- ---------footer---------- -->
+
+    <div class="footer">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="footer-col-2">
+            <img src="img/logowhite.png">
+            <p>Let Your Fit Do The Talking.</p>
+          </div>
+          <!-- <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+
+          </div> -->
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <a href="https://twitter.com/fromthe44"><li>Twitter</li></a>
+              <a href="https://www.instagram.com/room44.co/"><li>Instagram</li></a>
+
+              <a href="https://whereisnosa.github.io/DV/"><li>Blog</li></a>
+            </ul>
+
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Room44</p>
+      </div>
+    </div>
+<!-- js for toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px"
+          }
+        else
+          {
+            MenuItems.style.maxHeight = "0px"
+          }
+      }
+    </script>
+
+
+  </body>
+</html>
