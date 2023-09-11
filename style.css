@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 body{
   background-color: #D8DAE3;
 }
@@ -58,7 +60,8 @@ a{
 
 h4{
   color: #555;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Pangolin', cursive;
+  /* font-family: 'Gloria Hallelujah', cursive; */
   font-weight: normal;
 }
 
