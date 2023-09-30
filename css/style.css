@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -41,6 +43,20 @@ p{
 span{
   color: #de0000;
 }
+
+/* Add this style to position the screenshot button */
+#screenshot-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
 .container{
   max-width: 1400px;
@@ -120,6 +136,19 @@ span{
 .col-2 img{
   max-width: 100%;
   padding: 50px 0;
+}
+
+.slider {
+  width: 100%;
+  /* height: 600px; */
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
 }
 
 .col-2 h1{
@@ -213,6 +242,7 @@ span{
 
 h4{
   color: #555;
+  font-family: 'Rock Salt', cursive;
   font-weight: normal;
 }
 
