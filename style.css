@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 body{
-  background-color: #D8DAE3;
+  background-color: #000000;
 }
 
 span{
   color: #de0000;
+}
+h1{
+  color: #de0000;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2{
+  color: #de0000;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 hr{
@@ -15,6 +30,10 @@ hr{
   border-width: 1px;
   width: 90%;
   opacity: 39%;
+}
+
+.logo{
+  width: 200px;
 }
 
 .hor{
@@ -55,7 +74,7 @@ hr{
 
 a{
   text-decoration: none;
-  color: #2f2f2f;
+  color: #de0000;
 }
 
 h4{
